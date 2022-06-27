@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_word_box"
+        tools:background="@drawable/bg_word_box_absent"
+        tools:text="a"/>
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_word_box"
+        tools:background="@drawable/bg_word_box_present"
+        tools:text="b"/>
+
+    <TextView
+        android:id="@+id/textView_3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_word_box"
+        tools:background="@drawable/bg_word_box_correct"
+        tools:text="o"/>
+
+    <TextView
+        android:id="@+id/textView_4"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_word_box"
+        tools:text="u"/>
+
+    <TextView
+        android:id="@+id/textView_5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_word_box"
+        tools:text="t"/>
+</LinearLayout>

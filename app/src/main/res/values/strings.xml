@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VoteeWordle</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Wordle Game</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="sync_word_dict">Sync word dictionary</string>
+    <string name="guess">Guess</string>
+    <string name="previous">Previous</string>
+    <string name="seed">Seed</string>
+    <string name="start_word">Start word</string>
+    <string name="check_word">Check an use</string>
+    <string name="clear_and_random">Clear &amp; random</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
